@@ -7,3 +7,13 @@
     weight: 8 #slightly less common
   - type: LoadMapRule
     preloadedGrid: PartyUFO
+
+- type: entity
+  id: UnknownShuttleHotwire
+  parent: BaseUnknownShuttleRule
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    weight: 10 
+  - type: LoadMapRule
+    preloadedGrid: ENGHotwire
